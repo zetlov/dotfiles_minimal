@@ -18,9 +18,3 @@ for file in .??*; do
     [ ${file} == '.gitignore' ] && continue
     ln -fs ${PWD}/${file} ${HOME}
 done
-
-# for wsl
-if [ -n "$(which wslpath)" ]; then
-    # install
-    powershell.exe winget install notion.notion VivaldiTechnologies.Vivaldi.Snapshot AgileBits.1Password Anki.Anki AutoHotkey.AutoHotkey Discord.Discord ChristianKaiser.Lightscreen Google.GoogleDrive Microsoft.VisualStudioCode Google.JapaneseIME Microsoft.PowerToys Microsoft.DotNet.SDK.7 Spotify.Spotify Flow-Launcher.Flow-Launcher
-fi
