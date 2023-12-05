@@ -1,0 +1,38 @@
+### ignore all
+/*
+/.**
+
+### white list
+
+## windows
+!/windows/
+!/windows/**
+
+## config
+!/.config/
+!/.config/**
+
+## latex
+!/.latexmkrc
+
+## zsh
+!/.zshrc
+
+## bash
+!/.bashrc
+
+## git
+!/.gitconfig
+
+## tmux
+!/.tmux.conf
+
+## scripts
+!/link.sh
+!/install.sh
+
+## global
+__pycache__
+!/README.md
+!/LICENSE
+!.gitignore
